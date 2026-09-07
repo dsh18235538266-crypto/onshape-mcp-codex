@@ -35,6 +35,8 @@ Codex 获得 69 个工具，可驱动真实 Onshape CAD：
 
 在 [dev-portal.onshape.com](https://dev-portal.onshape.com/) 创建 OAuth/API 密钥对，得到 `ONSHAPE_API_KEY` + `ONSHAPE_API_SECRET`。
 
+> **Free 账号注意**：Onshape Free 计划只能创建 **public** 文档（私有文档需付费）。MCP 的 `create_document` 需传 `is_public=true`（Codex 对话里说"创建公开文档"即可）。认证、建模、导出等其余功能 Free 账号均可用。
+
 ### 2. 安装
 
 ```bash
